@@ -16,25 +16,43 @@
 .header .header-menu li{position: relative; display: block; float: left; line-height: 150px; margin-right: 60px;}
 .header .header-menu li:last-child{ margin-right: 0;}
 .header .header-menu li{font-size: 20px;}
+.navbar__2depth {
+  display: none;
+}
+
+.navbar__menu li:hover .navbar__2depth {
+  display: block;
+}
 
 /* 배너 */
-.banner{height: 600px;line-height: 600px; border: 1px solid #999; text-align: center; font-size: 30px;background-color: #fff;}
+.banner{overflow: hidden;height: 500px; border: 1px solid #999; text-align: center; font-size: 30px;background-color: #fff;}
+.banner .banner_a{float: left; background-color: beige; width: 70%;height:500px;}
+.banner .banner_a .banner_a_1{width: auto;height: 70%;background-color: aliceblue;}
+.banner .banner_a .banner_a_2{width: auto;height: 30%;}
+.banner .banner_b{float: right; background-color: aquamarine; width: 30%;height:500px;}
+.banner .banner_b .banner_b_1{width: auto;height: 30%;background-color: beige;}
+.banner .banner_b .banner_b_2{width: auto;height: 70%;}
 
 /* 컨텐츠 */
 .contents_p1{overflow: hidden;}
-.contents_p1 .cont1{float: left; width: 63%;height: 400px; border: 1px solid #888;}
+.contents_p1 .cont1{float: left; height: 350px;border: 1px solid #999;  background-color: antiquewhite;}
 .contents_p1 .cont1 h1{font-size: 30px;}
-.contents_p1 .cont2{float: right; width: 33%;height: 600px; border: 1px solid #888; line-height: 600px;  text-align: center;}
-.contents_p1 .cont3{float: left; width: 63%;height: 200px; border: 1px solid #888;}
 
 .contents_p2{overflow: hidden;}
-.contents_p2 .cont1{float: left; width: 33%;height:250px; line-height: 250px; border: 1px solid #888; text-align: center;}
-.contents_p2 .cont2{float: left; width: 33%;height:250px; line-height: 250px; border: 1px solid #888; text-align: center;}
-.contents_p2 .cont3{float: left; width: 33%;height:250px; line-height: 250px; border: 1px solid #888; text-align: center;}
+.contents_p2 .cont1{float: left; width: 20%;height:150px; line-height: 100px; background-color: aliceblue; text-align: center;}
+.contents_p2 .cont2{float: left; width: 20%;height:150px; line-height: 100px; background-color: beige; text-align: center;}
+.contents_p2 .cont3{float: left; width: 20%;height:150px; line-height: 100px; background-color: darkgray; text-align: center;}
+.contents_p2 .cont4{float: left; width: 20%;height:150px; line-height: 100px; background-color: indianred; text-align: center;}
+.contents_p2 .cont5{float: left; width: 20%;height:150px; line-height: 100px; background-color: darkseagreen; text-align: center;}
 
 .contents_p3{overflow: hidden;}
-.contents_p3 .cont1{float: left; width: 45%; height:100px; line-height: 100px; border: 1px solid #888; text-align: center;}
-.contents_p3 .cont2{float: right; width: 45%; height:100px; line-height: 100px; border: 1px solid #888; text-align: center;}
+.contents_p3 .cont1{float: left; width: 33%;height:250px; line-height: 250px; border: 1px solid #888; text-align: center;}
+.contents_p3 .cont2{float: left; width: 33%;height:250px; line-height: 250px; border: 1px solid #888; text-align: center;}
+.contents_p3 .cont3{float: left; width: 33%;height:250px; line-height: 250px; border: 1px solid #888; text-align: center;}
+
+.contents_p4{overflow: hidden;}
+.contents_p4 .cont1{float: left; width: 45%; height:60px; line-height: 60px; border: 1px solid #888; text-align: center;}
+.contents_p4 .cont2{float: right; width: 45%; height:60px; line-height:60px; border: 1px solid #888; text-align: center;}
 
 /* 푸터 */
 
